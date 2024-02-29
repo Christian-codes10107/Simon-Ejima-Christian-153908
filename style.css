@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: Arial, Helvetica, sans-serif;
+}
+body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.container{
+    margin: 10px auto;
+    width: 92%;
+}
+img{
+    max-width: 570px;
+    float: left;
+    border-radius: 7px;
+    border: 3px solid #bcccdc;
+    margin-right: 20px;
+    display: block;
+}
+.text h3 {
+    text-transform: uppercase;
+    color: #0b64a4;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+.text h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+.text p {
+    color: #48647f;
+    margin: 2rem 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 19px;
+}
+.section-center{
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 1170px;
+}
+.deadline-format span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+}
+.deadline-format {
+    background: #063251;
+    color: #fff;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+.deadline {
+    display: flex;
+}
